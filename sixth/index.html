@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="container">
+    <h1>Crystal Collector</h1>
+        <div class="tex-p">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                total score.</p>
+            <p>You win the game by matching your total score to random number, you lose the game if your total score
+                goes
+                above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal</p>
+        </div>
+        <div class="main-section">
+            <div class="main-section-div1"></div>
+            <div>
+                <div class="main-section-div2"></div>
+                <div class="win"> Win:<span class="main-section-span-win">0</span></div>
+                <div class="lose"> Lose:<span class="main-section-span-lose">0</span></div>
+            </div>
+        </div>
+        <div class="sekil">
+            <img id="d1" class="image1"
+                src="http://i99.beon.ru/static.tumblr.com/9e4300ab6c4ea859394297fee3d1f7a6/eekjydt/cA2n37rbp/tumblr_static_tumblr_ms7e4cvsl31qkjjfoo1_500.gif"
+                alt="">
+            <img id="d2" class="image1" src="https://data.whicdn.com/images/287997442/original.gif" alt="">
+            <img id="d3" class="image1" src="https://newvitruvian.com/images/quickscope-transparent-gif-png-4.gif"
+                alt="">
+            <img id="d4" class="image1" src="https://emiosman.files.wordpress.com/2015/05/giphy.gif" alt="">
+        </div>
+        <div class="score">Your total score is:</div>
+        <div class="your-total-score"><span class="span">0</span></div>
+        <script src="./kristal.js"></script>
+    </div>
+</body>
+
+</html>

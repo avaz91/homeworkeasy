@@ -1,0 +1,67 @@
+body{
+    background: url(http://www.edaqs.com/wp-content/uploads/2014/07/main_5_bkg.jpg)
+    
+}
+
+.sekil{
+    display: inline;
+}
+.image1{
+    width: 100px;
+    height: 100px;
+}
+.container{
+    width: 100%;
+
+}
+.sekil{
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    margin-right: 325px;
+    text-align: center;
+}
+h1{
+font-family: 'Germania One', cursive;
+font-size: 50px;
+font-weight: bold;
+width: 600px;
+margin: 0 auto; 
+text-align: center;
+color: rgb(9, 51, 38);
+text-transform: uppercase;
+}
+.main-section-div1{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+    color: brown;
+}
+.win{
+    color: green;
+    font-size: 30px;
+}
+.lose{
+    color: red;
+    font-size: 30px;
+
+}
+.score{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 354px;
+}
+.span{
+    width: 600px;
+    margin-left: 350px;
+    text-align: center;
+    font-size: 60px;
+    color: green;
+    display: block;
+    margin-top: 20px;
+}
